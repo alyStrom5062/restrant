@@ -48,6 +48,14 @@ function new_form () {
                             id="state"
                             required />
                     </div>
+                    <div className='form-group'>
+                    <label htmlFor="founded">Founded Year</label>
+                        <input className='form-control'
+                            type="text"
+                            name="founded"
+                            id="founded"
+                        />
+                    </div>
                     <input className='btn btn-primary' type="submit" value="Add Place"/>
                 </form>
             </main>
